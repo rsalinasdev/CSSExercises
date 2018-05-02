@@ -1,0 +1,38 @@
+p>textarea{
+  width: 200px;
+}
+
+body{
+  padding: 20px;
+  font-family: verdana;
+}
+
+input[name~=email]{
+  background-color: #eeeeee
+}
+
+p,label{
+  font-family: tahoma;
+}
+
+p:nth-child(4){
+  color: red;
+}
+
+input:focus{
+  width: 600px;
+  height: 140px;
+}
+
+p::first-letter{
+  color: red;
+  text-transform: capitalize;
+}
+
+p::first-line{
+  font-size: 32px;
+}
+
+p::selection{
+  color:pink;
+}

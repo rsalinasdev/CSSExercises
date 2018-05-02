@@ -1,0 +1,49 @@
+body{
+  font-size: 50px;
+  font-family: verdana;
+}
+
+div[class*="bloque"]{
+  flex-basis: 40%;
+}
+
+.bloque1{
+  background-color: #CC0000;
+  flex-shrink: 5;
+}
+
+.bloque2{
+  background-color: #CC1111;
+  flex-shrink: 0.1;
+}
+
+.bloque3{
+  background-color: #CC2222;
+  flex-grow: 50;
+}
+
+.bloque4{
+  background-color: #CC3333
+}
+
+.bloque5{
+  background-color: #CC4444
+}
+
+.bloque6{
+  background-color: #CC5555;
+  order: -1;
+  flex-grow: 50;
+}
+
+.bloque7{
+  background-color: #CC6666;
+  flex-shrink: 2;
+}
+
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,18 @@
+#contenedor{
+  width: 80%;
+  height: 100%;
+  background-color: gray;
+  margin: 0;
+  border: 2px dotted black;
+  text-align: center;
+}
+
+.cajas1 .cajas2{
+  display: inline-block;
+  width: 30%;
+  height: 80%;
+  background: purple;
+  border: 1px solid black;
+  margin: 10vh;
+
+}
