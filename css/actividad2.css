@@ -1,0 +1,92 @@
+body {
+	margin: 20px;
+}
+
+#destacados {
+	background-color: #669999;
+}
+
+#ofertas {
+	background-color: #F7D988;
+}
+
+#disponible {
+	background-color: #F7A188;
+}
+
+#contenido > section > h1 {
+	padding: 10px;
+	text-align: center;
+}
+
+footer {
+	margin-top: 10px;
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+}
+
+.contenido{
+  display: flex;
+  flex-direction: column;
+  font-variant: small-caps;
+}
+
+#destacados .contenedor > div{
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+
+
+#ofertas .contenedor > div{
+  width: 33.3%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+
+
+
+#disponible .contenedor > div{
+  width: 25%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border: 2px solid coral;
+}
+
+footer p:nth-child(1){
+  font-family: 'Lobster';
+  font-variant: normal;
+  background-color: pink;
+}
+
+footer p:nth-child(2){
+  font-family: 'Pangolin';
+  font-variant: normal;
+  background-color: yellow;
+  white-space: pre-wrap;
+}
+
+#destacados  h1{
+	text-shadow: 0 0 3px white;
+}
+
+#ofertas .contenedor div{
+	box-shadow: 4px 8px 10px pink;
+}
+
+#ofertas  h1{
+	text-shadow: 2px 3px blue, 4px 6px lightblue;
+}

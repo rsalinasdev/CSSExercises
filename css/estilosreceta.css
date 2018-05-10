@@ -1,6 +1,11 @@
+@font-face{
+  font-family: 'MiLato';
+  url: ('Lato-Regular.ttf');
+}
+
 body{
   margin: 20px;
-  font-family: verdana;
+  font-family: 'Lora';
 }
 
 .resaltado{
@@ -8,11 +13,15 @@ body{
 }
 #menu-principal{
   padding: 10px 0px;
+  font-style: italic;
+  font-family: 'MiLato';
 }
 .titulo{
   background-color: aliceblue;
   padding: 10px;
   text-align: center;
+  font-variant: small-caps;
+  font-family: 'MiLato';
 }
 footer{
   border-top: solid 1px black;
